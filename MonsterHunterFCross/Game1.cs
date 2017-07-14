@@ -139,8 +139,8 @@ namespace MonsterHunterFMono
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
 
-            spriteFont = Content.Load<SpriteFont>("slant");
-            ingameFont = Content.Load<SpriteFont>("arvil");
+            spriteFont = Content.Load<SpriteFont>("test");
+            ingameFont = Content.Load<SpriteFont>("test");
             comboManager = new ComboManager(ingameFont);
 
             BGMManager bgmManager = new BGMManager(Content);

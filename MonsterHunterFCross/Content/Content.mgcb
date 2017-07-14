@@ -193,12 +193,6 @@
 /processorParam:TextureFormat=Color
 /build:Rising_Force_Title.png
 
-#begin slant.spritefont
-/importer:FontDescriptionImporter
-/processor:FontDescriptionProcessor
-/processorParam:TextureFormat=Compressed
-/build:slant.spritefont
-
 #begin slap_large.wav
 /importer:WavImporter
 /processor:SoundEffectProcessor
@@ -360,12 +354,6 @@
 /processor:SoundEffectProcessor
 /processorParam:Quality=Best
 /build:airbackdash_h.wav
-
-#begin arvil.spritefont
-/importer:FontDescriptionImporter
-/processor:FontDescriptionProcessor
-/processorParam:TextureFormat=Compressed
-/build:arvil.spritefont
 
 #begin Aydin_game_text.png
 /importer:TextureImporter
@@ -1716,4 +1704,10 @@
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:portraits/lsportrait.png
+
+#begin test.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:TextureFormat=Compressed
+/build:test.spritefont
 
